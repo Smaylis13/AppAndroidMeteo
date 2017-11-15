@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20px"
+    android:paddingLeft="20px">
+
+    <TextView
+        android:id="@+id/nom1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Ville"
+        android:textSize="30px"/>
+    <TextView
+        android:id="@+id/ville"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Ville"
+        android:textSize="30px"
+        android:layout_toRightOf="@id/nom1"
+        android:layout_alignBaseline="@id/nom1"
+        android:layout_alignLeft="@+id/temperature"/>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/nom2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Pays"
+        android:layout_below="@id/nom1"
+        android:textSize="30px"/>
+    <TextView
+        android:id="@+id/pays"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Pays"
+        android:textSize="30px"
+        android:layout_toRightOf="@id/nom2"
+        android:layout_alignBaseline="@id/nom2"
+        android:layout_alignLeft="@id/temperature"/>
+
+
+
+
+    <TextView
+        android:id="@+id/nom3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Vent"
+        android:layout_below="@id/nom2"
+        android:textSize="30px"/>
+    <TextView
+        android:id="@+id/vent"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Vent"
+        android:textSize="30px"
+        android:layout_toRightOf="@id/nom3"
+        android:layout_alignBaseline="@id/nom3"
+        android:layout_alignLeft="@id/temperature"/>
+
+
+
+    <TextView
+        android:id="@+id/nom4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Pression"
+        android:layout_below="@id/nom3"
+        android:textSize="30px"/>
+    <TextView
+        android:id="@+id/pression"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Pression"
+        android:textSize="30px"
+        android:layout_toRightOf="@id/nom4"
+        android:layout_alignBaseline="@id/nom4"
+        android:layout_alignLeft="@id/temperature"/>
+
+
+
+    <TextView
+        android:id="@+id/nom5"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Température   "
+        android:layout_below="@id/nom4"
+        android:textSize="30px"/>
+    <TextView
+        android:id="@id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Température222"
+        android:textSize="30px"
+        android:layout_toRightOf="@id/nom5"
+        android:layout_alignBaseline="@id/nom5"/>
+
+
+
+    <TextView
+        android:id="@+id/nom6"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Date"
+        android:layout_below="@id/nom5"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Date"
+        android:textSize="30px"
+        android:layout_toRightOf="@id/nom6"
+        android:layout_alignBaseline="@id/nom6"
+        android:layout_alignLeft="@id/temperature"/>
+
+</RelativeLayout>
+
